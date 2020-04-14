@@ -16,14 +16,14 @@
         <!-- 用户名 -->
         <el-form-item prop="username">
           <el-input
-            prefix-icon="iconfont icon-RectangleCopy"
+            prefix-icon="iconfont icon-user"
             v-model="loginForm.username"
           />
         </el-form-item>
         <!-- 密码 -->
         <el-form-item prop="password">
           <el-input
-            prefix-icon="iconfont icon-RectangleCopy1"
+            prefix-icon="iconfont icon-3702mima"
             v-model="loginForm.password"
             type="password"
           />
@@ -171,7 +171,7 @@ export default {
     padding: 0 20px;
     box-sizing: border-box; //盒子溢出处理
   }
-
+// 按钮居右对齐
   .bths {
     display: flex;
     justify-content: flex-end;
