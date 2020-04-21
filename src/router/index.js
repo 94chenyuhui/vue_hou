@@ -4,6 +4,8 @@ import Login from '../components/Login.vue'
 import Home from '../components/Home.vue'
 import Welcome from '../components/Welcome.vue'
 import users from '../components/user/users.vue'
+import Rigths from '../components/power/Rigths.vue'
+import Roles from '../components/power/Roles.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -15,7 +17,9 @@ const routes = [
     redirect: '/welcome', // 路径重新定向
     children: [// 子路由
       { path: '/welcome', component: Welcome },
-      { path: '/users', component: users }
+      { path: '/users', component: users },
+      { path: '/rights', component: Rigths },
+      { path: '/Roles', component: Roles }
     ]
   }
 ]
