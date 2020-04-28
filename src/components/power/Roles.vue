@@ -312,7 +312,6 @@ export default {
       this.$message.success('删除权限成功！')
       // this.getRolesList() 有BUG 会重新刷新页面
       role.children = res.data// 不会重新刷新页面，只会重新刷新数据
-      console.log(123)
     },
     // 添加角色按钮
     tianJiaJueSe () {
