@@ -141,7 +141,6 @@
             :props="cascaderProps"
             v-model="selectedKeys"
             @change="parentCateChanged"
-            clearable
           />
         </el-form-item>
       </el-form>
@@ -223,8 +222,7 @@ export default {
       cascaderProps: {
         value: 'cat_id',
         label: 'cat_name',
-        children: 'children',
-        checkStrictly: true
+        children: 'children'
       },
       // 选中的父级分类的Id数组
       selectedKeys: [],

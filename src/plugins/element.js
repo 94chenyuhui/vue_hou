@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { Button, Form, FormItem, Cascader, Input, Select, Option, Tree, MessageBox, Tag, Pagination, Dialog, Message, Tooltip, Container, Header, Aside, Main, Menu, Submenu, MenuItem, Breadcrumb, BreadcrumbItem, Card, Row, Col, Table, TableColumn, Switch } from 'element-ui'
+import { Button, Form, Tabs, TabPane, FormItem, Alert, Cascader, Input, Select, Option, Tree, MessageBox, Tag, Pagination, Dialog, Message, Tooltip, Container, Header, Aside, Main, Menu, Submenu, MenuItem, Breadcrumb, BreadcrumbItem, Card, Row, Col, Table, TableColumn, Switch } from 'element-ui'
 // element  ui框架 按需导入组件
 Vue.use(Button)
 Vue.use(Form)
@@ -28,6 +28,9 @@ Vue.use(Tree)
 Vue.use(Select)
 Vue.use(Option)
 Vue.use(Cascader)
+Vue.use(Alert)
+Vue.use(Tabs)
+Vue.use(TabPane)
 // 导入弹框提示组件
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
