@@ -259,7 +259,9 @@
 export default {
   data () {
     return {
+      // 分类级联选择器数据
       catelist: [],
+      // 级联选择器的配置选项
       cateProps: {
         value: 'cat_id',
         label: 'cat_name',

@@ -8,6 +8,9 @@ import Rigths from '../components/power/Rigths.vue'
 import Roles from '../components/power/Roles.vue'
 import cate from '../components/goods/cate.vue'
 import params from '../components/goods/params.vue'
+import list from '../components/goods/list.vue'
+import add from '../components/goods/add.vue'
+import demo from '../components/demo.vue'
 Vue.use(VueRouter)
 
 const routes = [
@@ -23,7 +26,10 @@ const routes = [
       { path: '/rights', component: Rigths },
       { path: '/Roles', component: Roles },
       { path: '/categories', component: cate },
-      { path: '/params', component: params }
+      { path: '/params', component: params },
+      { path: '/goods', component: list },
+      { path: '/goods/add', component: add },
+      { path: '/demo', component: demo }
     ]
   }
 ]
