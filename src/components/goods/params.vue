@@ -129,7 +129,7 @@
             border
             style="width: 100%"
           >
-            <el-table-column type="expand" >
+            <el-table-column type="expand">
               <template slot-scope="scope">
                 <el-tag
                   v-for="(item,i) in scope.row.attr_vals"
@@ -157,7 +157,7 @@
                   + New Tag
                 </el-button>
               </template>
-              </el-table-column>
+            </el-table-column>
             <el-table-column type="index" />
             <el-table-column
               prop="attr_name"

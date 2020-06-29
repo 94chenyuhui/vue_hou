@@ -196,7 +196,7 @@
       width="50%"
       @close="setRightDialogClosed"
     >
-    <!-- 树形控件 -->
+      <!-- 树形控件 -->
       <el-tree
         :data="rightslist"
         :props="treeProps"
